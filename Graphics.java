@@ -23,6 +23,7 @@ public class Graphics extends JPanel implements ActionListener {
         this.setPreferredSize(new Dimension(WIDTH, HEIGHT));
         this.setBackground(Color.WHITE);
         this.setFocusable(true);
+        start();
         this.addKeyListener(new KeyAdapter() {
             @Override
             public void keyPressed(KeyEvent e) {
